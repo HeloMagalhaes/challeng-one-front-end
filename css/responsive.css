@@ -1,0 +1,138 @@
+@media(max-width: 1140px) {
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer h2, p {
+        text-align: center;
+    }
+}
+
+@media(max-width:1010px) {
+    .contact input[type="number"] {
+        margin-right: 2.1rem;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 997px) {
+    .hero .bg-opacity h2 {
+        width: 80%;
+        font-size: 6.0rem;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 7.3rem;
+    }
+
+    .hero .bg-opacity h2:first-child {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .hero-btn {
+        margin: 7.0rem auto 0 auto;
+        text-align: center;
+    }
+
+    .about-text {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .about p {
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 4.1rem;
+    }
+
+    .line-between-about-footer {
+        height: 9rem;
+    }
+}
+
+@media(max-width: 785px) {
+    footer {
+        margin: 0 2.1rem;
+    }
+
+    form {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto 7.1rem auto;
+    }
+
+    form div {
+        width: 80%;
+        margin: 0;
+    }
+
+    .contact input {
+        margin: 0;
+        width: 100%
+    }
+
+    .contact input[placeholder] {
+        font-size: 1.2rem;
+        padding: 1.6rem 0.5rem;
+    }
+
+    .contact input[type="button"] {
+        margin-top: 3.0rem;
+        width: 80%;
+    }
+
+    .contact div {
+        margin-top: 3.0rem;
+    }
+
+}
+
+@media(max-width:735px) {
+    .hero .bg-opacity h2 {
+        width: 80%;
+        font-size: 5.0rem;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 6.3rem;
+    }
+
+    .hero .bg-opacity h2:first-child {
+        font-size: 2.0rem;
+        line-height: 3.5rem;
+    }
+
+    .about img {
+        width: 80%;
+    }
+
+    .hero-btn {
+        width: 60%;
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:399px) {
+    .header h1 {
+        font-size: 2.0rem;
+    }
+
+    .header .social-media a {
+        font-size: 2.1rem;
+    }
+
+    .hero .bg-opacity h2 {
+        width: 80%;
+        font-size: 3.5rem;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 4.3rem;
+    }
+
+    .hero .bg-opacity h2:first-child {
+        font-size: 1.3rem;
+        line-height: 3.5rem;
+    }
+}
