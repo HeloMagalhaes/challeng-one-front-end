@@ -28,7 +28,7 @@
 
 .hero {
     height: 100vh;
-    background: rgba(0, 0, 0, 0.8) url(/images/faizur-rehman-pHPzdEHN6Os-unsplash\ 1.png) center center no-repeat;
+    background: rgba(0, 0, 0, 0.8) url(images/faizur-rehman-pHPzdEHN6Os-unsplash\ 1.png) center center no-repeat;
     background-size: cover;
     background-blend-mode: darken;
     margin-bottom: 4.1rem;
