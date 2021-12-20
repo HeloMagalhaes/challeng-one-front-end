@@ -15,6 +15,7 @@
 .header .social-media a {
     color: white;
     font-size: 3.1rem;
+    margin-left: 1.0rem;
 }
 
 .header .social-media a:hover {
@@ -30,10 +31,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.8) url(../images/desktop.png) center center no-repeat;
+    background: rgba(0, 0, 0, 0.8) url(../images/desktop.jpg) center center no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    height: 100vh;
+    height: calc(100vh - 80px);
     margin-bottom: 4.1rem;
 }
 
@@ -47,9 +48,13 @@
     margin-left: 5.9rem;
 }
 
-.hero h2:first-child {
+.hero h3{
     font-size: 3.0rem;
     line-height: 3.5rem;
+    color: white;
+    font-weight: 700;
+    max-width: 950px;
+    margin-left: 5.9rem;
 }
 
 .hero-btn {
@@ -63,12 +68,13 @@
     font-size: 2.2rem;
     background: #EE5253;
     border-radius: 8px;
+    scroll-behavior: smooth 1s;
 }
 
 .hero-btn:hover {
     background-color: rgb(255, 255, 0);
     color: black;
-    transition: 0.7s;
+    transition: 0.8s;
 }
 
 .about {
@@ -121,19 +127,19 @@
     transform-origin: 0 0;
 }
 
-footer {
+.form-section{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer h2 {
+.form-section h2 {
     font-size: 5.0rem;
     font-weight: 700;
     margin-top: 7.1rem;
 }
 
-footer p {
+.form-section p {
     font-size: 2.2rem;
     color: #333333;
     margin-bottom: 37px;
@@ -166,11 +172,11 @@ input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
-input[type=button] {
+input[type=submit] {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.6rem;
+    padding: 1.6rem 5.5rem;
     background: #10AC84;
     border-radius: 0.8rem;
     border: none;
@@ -178,7 +184,24 @@ input[type=button] {
     margin: 1.2rem 0 0 0;
 }
 
-input[type=button]:hover {
+input[type=submit]:hover {
     background-color: yellow;
     color: black;
+    transition: 0.8s;
 }
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #EAEAEA;
+ }
+ .footer-info p{
+     font-size: 1.4rem;
+     text-align: center;
+ }
+ .footer-info strong{
+     font-weight: 700;
+ }
