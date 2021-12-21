@@ -83,6 +83,10 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.about img{
+    width: 408px;
+    height: 466px;
+}
 
 .about-text {
     margin-left: 7.0rem;
@@ -166,10 +170,6 @@ form {
 
 .contact input[type="text"] {
     margin-left: 0;
-}
-
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
 }
 
 input[type=submit] {
